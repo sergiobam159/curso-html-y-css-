@@ -1,0 +1,44 @@
+/*Z INDEX*/
+/*SE HABLA DE UN VALOR EN Z (SALIENDO HACIA DIRECCION DEL USUARIO)*/
+/*
+-con default tiene z-index: 0 
+- se respeta el orden de creacion en html
+- PARA QUE Z INDEX FUNCIONE CORRECTAMENTE LOS ELEMENTOS INVOLUCRADOS EN EL ORDEN DEBEN TENER LA MISMA POSICION 
+                            ABSOLUTE-RELATIVE-FIXED
+NO ES POSIBLE CON ESTATICA
+
+varia su posicion respecto al tamaño del valor asignado
+
+*   se puede usar valores positivos o negativos aunque se recomienda usar solo         valores positivos 
+*   se recomienda valores en decenas (multiplos de 10), para que se pueda manejar mejor los intervalos
+
+*/
+body{
+    font-family: sans-serif;
+}
+
+div{
+    width:  200px;
+    height: 200px;
+    padding: 20px;
+    position: absolute;
+}
+
+#div1{
+    background: #FC0;
+    top:0;
+    left:0;
+    z-index: 20;
+}
+#div2{
+    background: #0FC;
+    top: 50px;
+    left: 50px;
+       z-index: 15;
+}
+#div3{
+    background: #AE0;
+    top:100px;
+    left:100px;
+       z-index: 10;
+}

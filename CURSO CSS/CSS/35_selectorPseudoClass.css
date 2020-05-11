@@ -1,0 +1,5 @@
+a:link {color: aquamarine; } /* link sin visitar */
+a:visited {color: brown; } /*luego de visitar el link */
+
+a:hover {text-decoration: line-through;} /* cuando se pasa el mouse sobre el link */
+a:active {color: aqua} /* efecto cuando se presiona el link */

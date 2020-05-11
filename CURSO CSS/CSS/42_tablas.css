@@ -1,0 +1,19 @@
+table{
+    width: 500px;
+    height: 500px;
+    empty-cells: hide;
+    /* espacio de celdas separadas 
+    un valor -> espacio en general 
+    dos valores -> vertical y horizontal*/
+    border-spacing: 30px;
+    /* indica si celdas pueden ir separads o unidas */
+    border-collapse: separate;
+}
+/* TD ES CELDA */
+td {
+    
+    border: 1px solid #08d;
+    text-align: center;
+    font-size: 30px;
+    
+}

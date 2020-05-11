@@ -1,0 +1,2 @@
+/* todos los elementos con el atributo especifico */
+img[alt="girasol"] {width: 100; height: auto}

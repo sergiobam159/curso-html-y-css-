@@ -1,0 +1,8 @@
+@import url(29_estilosAdicionales.css);
+h2 {color:darkgoldenrod; }
+p {color: darkblue; }
+
+
+/* SELETOR UNIVERSAL -> * */
+
+* {font-family: monospace;}

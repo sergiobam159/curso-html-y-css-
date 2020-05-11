@@ -1,0 +1,25 @@
+div {
+    
+    /* los elementos de bloque (como el div) ocupan todo el area
+    horizontalmente 
+    ENTONCES  con las propiedades de display puedes cmbiar ese comportamiento */
+    width: 200px;
+    height: 200px;
+    background: #CCC;
+    display:inline;
+    
+}
+span {
+    color: forestgreen;
+    font-weight: 700;
+    display: block;
+    
+}
+
+#dos {
+    /*display none no lo muestra y no ocupa espacios en pantalla
+    /*display: none;*/ 
+    /* visibility hidden no lo muestra en pantalla pero si su espacio en pantalla */
+    visibility: hidden;
+    
+}

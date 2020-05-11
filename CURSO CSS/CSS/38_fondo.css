@@ -1,0 +1,7 @@
+body {
+     /*background-color: aqua;*/
+    background-image: url(../img/gato.jpg);
+    background-repeat: no-repeat;
+    background-position: 20% 40%;
+    background-attachment: fixed;
+}

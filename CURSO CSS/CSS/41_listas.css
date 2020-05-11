@@ -1,0 +1,9 @@
+ul{
+    font-size: 22px;
+    border: 1px solid red;
+    padding: inside;
+    list-style-image: url(../img/burger.jpg);
+/*    list-style-type: upper-roman;*/
+    
+    
+}

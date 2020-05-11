@@ -1,0 +1,32 @@
+body {
+    font-family: open sans;
+    
+}
+/*SELECTOR PADRE
+    modifica dotodos los elementos dentro de un elemento padre
+
+*/
+/*selecciona todos los hijos directos o no*/
+div p {
+    background: #7bf;
+}
+/*SELECTOR HIJO*/
+/* afecta a los hijos directos dentro de */
+div > p {
+    background: #ff0;
+}
+/*ADYACENTE GENERAL
+modifica los elementos luego de otro elemento
+en este caso todos los p luego de div
+*/
+div ~ p {
+    background: #00F;
+}
+
+/*SELETOR ADYACENTE INMEDIATO 
+modifica el siguiente a un elemento indicado
+en este caso el primer p luego de div
+*/
+div +p {
+    background: #F0F;
+}

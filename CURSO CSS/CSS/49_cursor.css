@@ -1,0 +1,10 @@
+body{
+    font-family: open sans;
+cursor: wait;
+}
+p {
+    cursor:cell;
+}
+a{
+    text-decoration: none;
+}
